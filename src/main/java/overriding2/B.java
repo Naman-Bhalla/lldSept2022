@@ -6,7 +6,7 @@ public class B extends A {
 //        System.out.println("Doing something in parent");
 //    }
 
-    String doSomething(String a) {
-        return "";
+    void doSomething(String a) {
+        return;
     }
 }
