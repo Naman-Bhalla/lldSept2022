@@ -28,6 +28,9 @@ public class Client {
         siddharth.setStudentPsp(91.0);
 
         Student intelligentSiddharth = studentRegistry.get("aprBatchIntelligentStudent").clone();
+//        if (intelligentSiddharth instanceof IntelligentStudent) {
+//            (IntelligentStudent) ((IntelligentStudent) intelligentSiddharth).iq
+//        }
         intelligentSiddharth.setName("Siddharth");
         intelligentSiddharth.setAge(24);
         intelligentSiddharth.setStudentPsp(91.0);
