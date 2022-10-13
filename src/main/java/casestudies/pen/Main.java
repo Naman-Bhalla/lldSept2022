@@ -10,3 +10,5 @@ public class Main {
 
     }
 }
+
+// Client -> Pen.write() -> WriteSTrategy,writeBehaviou()

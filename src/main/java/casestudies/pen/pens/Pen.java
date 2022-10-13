@@ -54,5 +54,7 @@ public abstract class Pen {
         this.length = length;
     }
 
-    public abstract void write();
+    public void write() {
+        this.writeStrategy.writeBehaviour();
+    }
 }
