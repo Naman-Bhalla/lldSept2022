@@ -1,7 +1,7 @@
 package casestudies.pen.pens;
 
 import casestudies.pen.Cap;
-import casestudies.pen.WriteStrategy;
+import casestudies.pen.writestrategies.WriteStrategy;
 
 public abstract class Pen {
     private WriteStrategy writeStrategy;
@@ -9,6 +9,10 @@ public abstract class Pen {
     private Cap cap;
     private String brand;
     private double length;
+
+    public Pen(WriteStrategy writeStrategy) {
+        this.writeStrategy = writeStrategy;
+    }
 
     public WriteStrategy getWriteStrategy() {
         return writeStrategy;

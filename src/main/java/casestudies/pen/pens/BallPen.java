@@ -1,11 +1,15 @@
 package casestudies.pen.pens;
 
 import casestudies.pen.Refil;
-
-import java.sql.Ref;
+import casestudies.pen.writestrategies.SmoothWriteStrategy;
+import casestudies.pen.writestrategies.WriteStrategy;
 
 public class BallPen extends Pen {
     private Refil refil;
+
+    public BallPen(WriteStrategy writeStrategy) {
+        super(writeStrategy);
+    }
 
     public Refil getRefil() {
         return refil;

@@ -1,4 +1,4 @@
-package casestudies.pen;
+package casestudies.pen.writestrategies;
 
 public interface WriteStrategy {
     void write();
